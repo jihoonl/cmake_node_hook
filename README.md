@@ -12,7 +12,13 @@ Note that it is untested with install space
 ```
 ...
 find_package(catkin REQUIRED cmake_node_hook)
-catkin_npm_update()
+
+# Calling npm update every complilation
+catkin_npm_update_target()
+
+# Calling only once 
+catkin_npm_update_once()
+
 catkin_package()
 ...
 ```

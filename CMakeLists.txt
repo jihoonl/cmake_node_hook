@@ -3,8 +3,8 @@ project(cmake_node_hook)
 
 find_package(catkin REQUIRED)
 
-set(${ROJECT_NAME}_MODULES "")
-list(APPEND ${PROJECT_NAME}_MODULES node_build_utilities.cmake) 
+set(${PROJECT_NAME}_MODULES "")
+list(APPEND ${PROJECT_NAME}_MODULES node-build-utilities.cmake)
 
 catkin_package(
   CFG_EXTRAS ${${PROJECT_NAME}_MODULES}

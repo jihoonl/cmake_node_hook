@@ -28,7 +28,6 @@ macro(catkin_npm_update_once)
 
     # Not sure whether there is a way to make it custom target
     safe_execute_process(
-      Name ALL
       COMMAND  ${NPM_UPDATE_BIN} ${NPM_UPDATE}
       WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
       RESULT_VARIABLE NPM_RESULT

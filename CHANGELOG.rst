@@ -2,8 +2,8 @@
 Changelog for package cmake_nodejs_hook
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.2 (2015-04-21)
+------------------
 * rename the package
 * Contributors: Jihoon Lee
 
